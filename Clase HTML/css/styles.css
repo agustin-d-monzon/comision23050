@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Libre+Baskerville:ital@1&family=Playfair+Display:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Libre+Baskerville:ital@1&family=Playfair+Display:ital@1&display=swap');
+/*
+--Selector Universal CSS (*)--
+*{
+    margin: 0;
+    padding: 0;
+}
+*/
+
+/* Selector de Etiqueta */
+body{
+    background-color: #ffff00;
+}
+p{
+    color: #ff0000;
+    font-family: 'Libre Baskerville', serif;
+}
+h1{
+    color: #1919e2;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 700;
+}
+
+/* Selector ID */
+#parrafoVerde{
+    color:#008000;
+}
+/* Selector de Clase */
+.textoMarron{
+    color: #a52a2a
+}
+.colorModificado{
+    color: #8a2be2;
+}

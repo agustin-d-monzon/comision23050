@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>HTML 5</title>
+        <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="./css/styles.css">
+        <!--CSS Estilo Interno-->
+        <!--style>
+            p{
+                color:red;
+            }
+        </style-->
+        
+    </head>
+    <body>
+        <header>
+            <!--CSS Estilos en Linea-->
+            <!--h1 style="color:blue">HTML 5</h1-->
+            <h1>HTML 5</h1>
+        </header>
+        <main>
+            <!--Selector Id (solo se aplica una etiqueta)-->
+            <p id="parrafoVerde">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo aperiam quia officia ducimus distinctio similique 
+                nisi rerum laboriosam cupiditate tempore nemo sed eaque explicabo modi sapiente accusantium, aut, porro velit?</p>
+            <!--Imagen desde la web-->
+            <img src="https://cdn.download.ams.birds.cornell.edu/api/v1/asset/56896311/900" alt="imagen de loro" width="250px" height="250px">
+            <!--Imagen descargada en el proyecto-->
+
+            <img src="./img/delfin.jpg" alt="imagen de un delfin" width="250px" height="250p">
+            
+            
+            <!--Lista desordenada(*)-->
+            <!--Lista de días de la semana-->
+            <ul>
+                <li> Lunes </li>
+                <li> Martes </li>
+                <li> Miercoles </li>
+                <li> Jueves </li>
+                <li> Viernes </li>
+                <li> Sabado </li>
+                <li> Domingo </li>
+            </ul>
+
+            <!--Lista Ordenada (1))-->
+            <ol>
+               <li class="colorModificado">Primer paso</li>
+               <li>Segundo paso</li>
+               <li>Tercer paso</li>
+               <li>Cuarto paso</li>
+               <li>Quinto paso</li>
+            </ol>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum iusto dolorem illum. Sed voluptatem ex consectetur suscipit architecto maxime, provident velit aut! Minus, quia vel! In nobis dolores illo corrupti?
+            Exercitationem iste incidunt, officia illum aspernatur eligendi, unde maxime consequatur error quibusdam similique asperiores corporis officiis perspiciatis laudantium neque assumenda voluptatibus numquam ducimus aliquid quod enim quasi beatae cumque. Temporibus.
+            Nulla voluptas iste fugit adipisci sunt, quis est corporis vero sit commodi iusto nam? Corporis exercitationem fugit eius quam? Qui maiores perferendis accusantium laboriosam voluptate et, magni nulla assumenda debitis!
+            Neque placeat asperiores odit reiciendis adipisci corrupti alias ex in nihil, recusandae facilis deserunt libero voluptatum? Quos molestias consequatur exercitationem provident nulla voluptatum expedita minus, assumenda, hic, inventore ut fuga?
+            </p>
+
+
+            <!--Tabla-->
+            <table border="1px solid #000">
+               <thead>
+                <tr>
+                    <th>Comision</th>
+                    <th>Lejago</th>
+                </tr>
+                <tr>
+                    <td class="colorModificado">1</td>
+                    <td>2</td>
+                </tr>
+               </thead> 
+               <tbody>
+                <tr>
+                    <th>Día</th>
+                    <th>Horario</th>
+                </tr>
+                <tr>
+                    <td>Lunes</td>
+                    <td>18hs</td>
+                </tr>
+                <tr>
+                    <td>Jueves</td>
+                    <td>18hs</td>
+                </tr>
+               </tbody>
+               <tfoot>
+                <tr>
+                    <td>A</td>
+                    <td>B</td>
+                    <td>C</td>
+                </tr>
+               </tfoot>
+            </table>
+
+            <!--IFrame de Maps-->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d921189.9229186912!2d-54.8454506501873!3d-25.591683246503163!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94f6ea0ca3aa1b6d%3A0x917b75179c5e987e!2sLas%20Cataratas%20del%20Iguaz%C3%BA!5e0!3m2!1ses-419!2sar!4v1682905373202!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <!--IFrame de Youtube-->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/JbyXJO_yin4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            
+            <!--Selector de clase (varias etiquetas)-->
+            <p class="textoMarron">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi officia assumenda neque accusamus ut accusantium eum corrupti consectetur natus aliquid voluptatum culpa vero distinctio delectus, quos rem fugiat fugit. Explicabo!</p>
+            <p class="colorModificado">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam pariatur minima, unde quis dolore, ipsam tempora illo tenetur laborum necessitatibus sit officiis deleniti corrupti esse animi et? Impedit, ducimus ratione?</p>
+
+            <!--Formulario-->
+            <form action="#">
+                <label for="nombre">Nombre</label>
+                <input type="text" placeholder="Ingrese su nombre" name="nombre" id="nombre" required>
+                <br><br>
+                <label for="mail">Email</label>
+                <input type="email" placeholder="Ingrese su email" id="mail" required>
+                <br><br>
+                <label for="contra">Contraseña</label>
+                <input type="password" placeholder="Ingrese su contraseña" id="contra" required>
+                <br><br>
+                <input type="submit" value="Enviar">
+            </form>
+            <br><br>
+            <!--Formulario checkbox(permite varias opciones)-->
+            <form action="#">
+                <input type="checkbox" name="." value=".">option1
+                <input type="checkbox" name="." value=".">option2
+                <input type="checkbox" name="." value=".">option3
+                <input type="checkbox" name="." value=".">option4
+            </form>
+            <br><br>
+            <!--Formulario radio(solo permite una opcion)-->
+            <form action="#">
+                <input type="radio" name="." value=".">optionA
+                <input type="radio" name="." value=".">optionB
+                <input type="radio" name="." value=".">optionC
+                <input type="radio" name="." value=".">optionD
+            </form>
+        </main>
+        <footer>
+            <br><br>
+            <br><br>
+            &copy; 2023 All rights reserved
+        </footer>
+    </body>
+</html>
