@@ -1,7 +1,111 @@
 #codoacodo{
-    width: 100px
+    padding-left: 5% ;
+    width: 200px;
+}
+#barra{
+    height: 100px;
 }
 
 #titulo{
+    padding-right: 25%;
+    font-size: larger;
+}
+
+
+#tickets {
+    color: #008000;
+    transition: background-color 0s, color 0s, border 0s;
+  }
+  
+#tickets:hover {
+    background-color: green;
+    color: white;
+    border-radius: 15px;
+    border: 2px solid green;
+  }
+
+.textobsas{
+    font-size: larger;
+    font-style:italic;
+}
+
+.text-content {
+    position: absolute;
+    bottom: -30%;
+    left: 40%;
+    padding: 10%;
+    color: #fff;
+    text-align: right;
+}
+  
+.text-content h2,
+.text-content p,
+.text-content button {
+    margin-bottom: 10px;
+}
+
+.boton1{
+    background-color: transparent;
+    color: #fff;
+    border-radius: 5px;
+    border: 1px solid white;
+  
+}
+
+.boton2{
+    background-color: #008000;
+    color: #ffffff;
+    border-radius: 5px;
+    border: 1px solid #008000
+}
+  
+.conoce{
+    font-size: medium;
+    text-align: center;
+}
+
+.oradores{
+    text-align: center;
+    font-size:xx-large;
+}
+
+.image-container{
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.honolulu {
+    max-width: 100%;
+    height: 100%;
+  } 
+
+  #octubre {
+    flex: 1;
+    padding: 20px;
+  }
+
+.margenes{
+    padding-left: 15%;
+    padding-right: 15%
+}
+
+.boton3{
+    background-color: #71eb39;
+    border-radius: 5px;
+    border: 1px solid #71eb39
+}
+
+.colorfooter{
+    background: rgb(32,51,82);
+    background: linear-gradient(90deg, rgba(32,51,82,1) 22%, rgba(30,66,88,1) 57%, rgba(29,79,106,1) 96%);
     
+}
+
+.margenfooter{
+    padding-left: 10%;
+    padding-right: 10%;
 }
